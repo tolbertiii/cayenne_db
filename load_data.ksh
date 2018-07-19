@@ -1,4 +1,4 @@
-#!/bin/ksh93
+#!/bin/ksh
 
 set -x 
 

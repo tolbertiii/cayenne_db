@@ -1,6 +1,6 @@
 drop table tbl1;
 create table tbl1(service_dt TEXT, mileage INT, invoice_number TEXT, total_invoice REAL, notes TEXT);
-insert into tbl1 values('2006-08-10', 10492, 'POCS432059', 306.1100000000,'
+insert into tbl1 values('2006-08-10', 10492, 'POCS432059', 306.11,'
 Combined with POCS432228
 
 Oil change. $234.11
@@ -11,33 +11,52 @@ Back seat damage.
 
 Programmed extra key. $60.
 ');
-insert into tbl1 values('2006-11-02', 14604, 'POCS444722', 0.0000000000,'
+insert into tbl1 values('2006-11-02', 14604, 'POCS444722', 0,'
 Jim complained of air suspension errors; unable to reproduce.
 Windshield washer leak; replaced reservoir. Warranty
 Headrest on rear seat fixed. Warranty
 Jim complained about AC; checks out ok.
 ');
-insert into tbl1 values('2006-12-05', 16325, 'POCS449145', 1430.7900000000,'
+insert into tbl1 values('2006-12-05', 16325, 'POCS449145', 1430.79,'
 Jim requested 4 new tires. 
 ');
-insert into tbl1 values('2007-04-25', 23967, 'POCS470486', 399.4900000000,'
+insert into tbl1 values('2007-04-25', 23967, 'POCS470486', 399.49,'
 AC problem; Leak in condenser. Fixed under warranty.
 Oil change. $177.21
 Jim requested 4 wheel alignment. $199.95
 Jim requested to check brakes. $0.
 Jim says the transmission is shifting hard. Reset adaption values for trans. $0.
 ');
-insert into tbl1 values('2007-06-18', 27332, '526218', 1415.0600000000,'
+insert into tbl1 values('2007-06-18', 27332, '526218', 1415.06,'
 Mileage estimated. Looks like this is when he added the towing package.
 
 Trailer coupling. $1155.66
 Trailer ball. $151.55
 ');
-insert into tbl1 values('2007-06-29', 27332, 'POCS481084', 615.6000000000,'
+insert into tbl1 values('2007-06-29', 27332, 'POCS481084', 615.60,'
 Install trailer hitch. $600
 Touch up paint. $14.41
 ');
-insert into tbl1 values('2008-02-21', 43316, 'POCS517926', 2460.3800000000,'
+insert into tbl1 values('2007-08-24', 44712, 'POCS489809', 1830.34,'
+Jim says the air suspension fault is constant. Found fault 1772 stored. Performed leak test. Level control unit valve block and wiring tests. Found compressor failing. Replaced compressor. Performed vehicle height calibration. Warranty $0
+
+Jim says there is a error message for dipped beam warning light. Found open circuit low beam fault stored. Fault intermittent. Found R low beam failing after extended operation. Amplifier failing. Replaced R litronic module. Replaced bulb due to lack of intensity. Adjjusted headlights. Warranty $0.
+
+Jim says the right headlinght intermittently does not work at all. Seems like it coincides with the headlight repaired job 2.
+
+Jim says the horn sounds very weak. Found low note horn failed. Replaced. Warranty $0.
+
+Request oil change. $192.16
+
+Jim says check shifting operation, shifts hard into gear. No diagnostic faults stored. Tested transmission upshift operation. Upshifts normal. First upshifts before reaching operating temperature delayed to warm engine and transmission quickly.
+
+State inspection. $25.50
+
+Jim requests 4 new tires. $1299.95
+
+Four wheel alignment. $199.95
+');
+insert into tbl1 values('2008-02-21', 43316, 'POCS517926', 2460.38,'
 Jim says the horn, again.
 Front and rear wipers. $119.57
 Two new tires. $754.13
@@ -47,7 +66,7 @@ Jim says door trim is loose. Warranty $0.
   Pollen filter $25.60
   Spark plug. $147.20
 ');
-insert into tbl1 values('2008-07-30', 49574, 'POCS541500', 2135.5700000000,'
+insert into tbl1 values('2008-07-30', 49574, 'POCS541500', 2135.57,'
 Four new tires. $1596.27
 Added 1.5 quart of oil
 Jim says check suspension.No faults.
@@ -57,14 +76,14 @@ Brake flush. Recommended every 2 years. $151.45.
 Rear AC blows hot. Temp mixing flap motor arm broken. Warranty. $0.
 Four wheel alignment. $199.95
 ');
-insert into tbl1 values('2008-10-09', 54776, 'POCS552144', 820.5300000000,'
+insert into tbl1 values('2008-10-09', 54776, 'POCS552144', 820.53,'
 New RR tire. $396.49
 Jim says front turn signal and turning lamp out. Replaced bulbs. $74.83.
 Replace rear washer nozzle. $92.42.
 Detail $180.
 
 ');
-insert into tbl1 values('2009-01-22', 59760, 'POCS566976', 640.3100000000,'
+insert into tbl1 values('2009-01-22', 59760, 'POCS566976', 640.31,'
 60000 mile service. $481.70
   oil change
   not sure what else was done
@@ -74,7 +93,7 @@ Lubed front door hinges
 Adjusted right front seat belt. $120.
 Engine coolant level low. Topped off and checked for leaks.
 ');
-insert into tbl1 values('2009-06-05', 66037, 'POCS583457', 7502.3500000000,'
+insert into tbl1 values('2009-06-05', 66037, 'POCS583457', 7502.35,'
 Jim has two damanged wheels. Two new tires installed. $505.76
 
 It looks to me like Jim horked this thing up in the front end. Note that there is no evidence of an insurance claim from Carfax. I have seen no evidence of any body damage. This likely explains the weird paint markings on some of the parts on the car.
@@ -100,7 +119,7 @@ Four wheel alignment. $199.95.
 
 
 ');
-insert into tbl1 values('2009-09-10', 73011, 'POCS601087', 2702.3300000000,'
+insert into tbl1 values('2009-09-10', 73011, 'POCS601087', 2702.33,'
 Jim says there is coolant leaking. 
 This is obviously the infamous coolant pipe problem.
 
@@ -114,18 +133,18 @@ Front headlight washer nozzle leaking. $239.17
 
 Two new tires. $714.63
 ');
-insert into tbl1 values('2009-11-13', 76937, 'POCS611356', 0.0000000000,'
+insert into tbl1 values('2009-11-13', 76937, 'POCS611356', 0,'
 Customer states engine has a coolant leak.
 Found defective hose clamp at newly replaced coolant pipes.
 Replaced clamp no charge.
 ');
-insert into tbl1 values('2009-12-08', 77000, 'POCS614949', 781.6600000000,'
+insert into tbl1 values('2009-12-08', 77000, 'POCS614949', 781.66,'
 Two new tires. $727.41
 
 Check engine light is coming on. Found bank 2 lean idle mixture fault. Fault not present. Cleared fault and road tested. $0.
 
 ');
-insert into tbl1 values('2010-01-27', 80522, 'POCS622059', 1686.5700000000,'
+insert into tbl1 values('2010-01-27', 80522, 'POCS622059', 1686.57,'
 Brake pads, front. Replaced. $747.78.
   brake pads
   wear sensors
@@ -142,32 +161,32 @@ Jim says clunking noise when accelerating from a stop and the all wheel drive er
   spark plug
 
 ');
-insert into tbl1 values('2010-03-30', 84064, 'POCS631072', 1452.4700000000,'
+insert into tbl1 values('2010-03-30', 84064, 'POCS631072', 1452.47,'
 Four new tires. $1211.87
 Jim says engine light is coming on. Repaired vacuum leak no charge. $0.
 
 Four wheel alignment. $199.95
 
 ');
-insert into tbl1 values('2010-06-09', 87445, 'POCS640529', 310.9000000000,'
+insert into tbl1 values('2010-06-09', 87445, 'POCS640529', 310.90,'
 Jim says there is a warning message for brake booster failure. R&I engine trim, covers, aux air pump to replace broken vacum line. $302.06
 
 Jim says oil leak driver''s side of teh engine. Oil is from blowby coming thru intercoolers when engine under boost. Normal, drain and clean. $0.
 
 
 ');
-insert into tbl1 values('2010-07-12', 89864, 'POCS648760', 335.3300000000,'
+insert into tbl1 values('2010-07-12', 89864, 'POCS648760', 335.33,'
 Jim says there is a smell of fuel leaking. Found rollover valve at L fuel tank flange leaking. Replaced L fuel tank flange. $301.84
 
 
 ');
-insert into tbl1 values('2010-08-23', 91523, 'POCS655602', 703.2100000000,'
+insert into tbl1 values('2010-08-23', 91523, 'POCS655602', 703.21,'
 JIm says the battery was dead. Check battery and charging battery. Old, weak, fill, load, replace battery. $428.37
 
 Oil change. $209.51
 
 ');
-insert into tbl1 values('2010-11-22', 94299, 'POCS669852', 1325.2200000000,'
+insert into tbl1 values('2010-11-22', 94299, 'POCS669852', 1325.22,'
 Jim says vibration under the car when accelerating at 20-35 MPH. Replace main cardan/drive shaft. $1021.47.
 
 Program 2 client supplied keys to open all doors. $65.00
@@ -177,7 +196,7 @@ State inspection. $25.50
 Replace rear brake pads. $324.84
 
 ');
-insert into tbl1 values('2010-12-21', 95074, 'POCS673913', 1065.2900000000,'
+insert into tbl1 values('2010-12-21', 95074, 'POCS673913', 1065.29,'
 Client states there is no power steering assist and fluid is leaking from engine.
 Power steering pump leaking
 R&I engine guard, air cleaner box, LF wheel and liner, loose belt to replace power steering pump. Fill and bleed.
@@ -185,7 +204,7 @@ R&I engine guard, air cleaner box, LF wheel and liner, loose belt to replace pow
 Client requests program key remote to unlock all doors with one touch on remote.
 After changing comfort setting in inst cluster to open all doors, will need to press remote twice to unlock all doors.
 ');
-insert into tbl1 values('2010-12-21', 95074, 'POCS673913', 1065.2900000000,'
+insert into tbl1 values('2010-12-21', 95074, 'POCS673913', 1065.29,'
 No power assist and fluid is leaking from engine. Steering pump leaking. Replaced. $539.80.
 
 Program key remote. 
@@ -193,7 +212,7 @@ Program key remote.
 Servo pump. No details. $483.93
 
 ');
-insert into tbl1 values('2011-02-07', 96100, 'POCS680797', 252.5400000000,'
+insert into tbl1 values('2011-02-07', 96100, 'POCS680797', 252.54,'
 Jim says batter is dead and will not take a charge. Charge battery and load test. Battery drops from 12.7 v to 11.0 v after loaded. Replaced under warranty. $0.
 
 Jims says error message for air suspension is on dash. Due to bad battery.
@@ -210,7 +229,7 @@ Detail $180.00
 
 
 ');
-insert into tbl1 values('2011-07-19', 99370, 'POCS707095', 1187.6600000000,'
+insert into tbl1 values('2011-07-19', 99370, 'POCS707095', 1187.66,'
 Jim says there is fluid leaking. Found o-ring to left turbocharger pressure hose leaking. R&I bottom trim panel to replace o-ring.
 
 Oil change. $238.88
@@ -228,14 +247,14 @@ Jim says check AC system for proper cooling and refridgerant charge. R&I front e
 
 Brake system flush; recommended every 2 years. $159.51
 ');
-insert into tbl1 values('2011-08-17', 99634, 'POCS712137', 536.2300000000,'
+insert into tbl1 values('2011-08-17', 99634, 'POCS712137', 536.23,'
 Jim says engine is leaking coolant. This is the T connector. I think they should have replaced this when they did the main coolant job. $481.38
 
 Jim says drive light has come on. Fault for power supply in transfer case CU.battery (check?) at 12.0v. Charge batttery. Noted battery replaced 2/11. If recurs with low battery, may need to replace battery. 
 
 Inspection, fixed tire. 
 ');
-insert into tbl1 values('2011-12-01', 101943, 'POCS728837', 510.7700000000,'
+insert into tbl1 values('2011-12-01', 101943, 'POCS728837', 510.77,'
 Jim says the driver side window is not working. Found window potentiometer fault. Found L rear door lock switch fault. Replaced driver''s window motor and L rear door lock switch. $527.17
 
 Jim says front hood will not stay up. Replaced hood strut no charge. $0. $39.52 parts.
@@ -243,7 +262,7 @@ Jim says front hood will not stay up. Replaced hood strut no charge. $0. $39.52 
 Check battery has been slow to start, see history. Load tested battery and alternator. Alternator output normal. Battery load test normal. Tested for current draw over 2 days. No abnormal current draw found.
 
 ');
-insert into tbl1 values('2012-02-03', 102933, 'POCS739413', 504.1400000000,'
+insert into tbl1 values('2012-02-03', 102933, 'POCS739413', 504.14,'
 State inspection. $25.50
 
 Jim says teh idle is rough when cold. A little better after warm up. No faults in DME, starting/idling ok at this time.
@@ -262,7 +281,7 @@ Replace rear lid and window struts. $494.54
 Whoa, those are high.
 
 ');
-insert into tbl1 values('2012-07-12', 105576, 'POCS765457', 1720.7600000000,'
+insert into tbl1 values('2012-07-12', 105576, 'POCS765457', 1720.76,'
 Jim says there is coolant leaking. Found coolant tank leaking. R&I head linght, engine covers, torque bar, torque bar support to replace coolant tank drian and filled coolant. $1098.69.
 
 Jim says right rear tail lamp needs to be replaced. Replaced right tail light housing. $294.05
@@ -271,7 +290,7 @@ Jim says there is aclunking noise when braking. Foundlower trailing arm bushings
 
 Vehicle inspection
 ');
-insert into tbl1 values('2012-09-21', 107199, 'POCS777764', 1716.4400000000,'
+insert into tbl1 values('2012-09-21', 107199, 'POCS777764', 1716.44,'
 Jim says check engine light is comong on, engine is missfiring. Misfire faults due to cracked/shorted coils. R&I engine trim/covers, torque arm, air pumps to replace coils. $766.81
 
 Jim says replace windshield. $660.24
@@ -284,13 +303,13 @@ Vichicle inspection.
 
 
 ');
-insert into tbl1 values('2012-12-10', 109466, '600011', 280.4900000000,'
+insert into tbl1 values('2012-12-10', 109466, '600011', 280.49,'
 Secondary air pump bank 2 seized/inoperative. R&I engine trim to replace pump and 40amp maxi fuse. $265.45
 
 
 
 ');
-insert into tbl1 values('2013-01-03', 109961, '600239C', 113.3000000000,'
+insert into tbl1 values('2013-01-03', 109961, '600239C', 113.30,'
 Jim says the driver''s side mirror is loose and the glass moves while driving. Driver side mirror glass delaminating from backing. Replace driver side mirror glass.
 
 Jim says check engine light is on and the engine is running rough. Fault P0492 secondary air pump bank 2 insufficient flow. Pump interally shored and fuse blown. Parts warranty from earlier work. 
@@ -299,7 +318,7 @@ Jim says door squeeks. Lube all door hinges.
 Jim says tthe trim inside the R front door is loose. Replace clips.
 
 ');
-insert into tbl1 values('2013-08-27', 115621, '602230', 2196.1800000000,'
+insert into tbl1 values('2013-08-27', 115621, '602230', 2196.18,'
 Jim says there is a noise from the R rear when driving. Found that one way check valve for secondar air on driver side has failed and is allowing exhaust gas to back up into air pump resulting in noise. Replaced check valve. $367.59
 
 Replace key. $316.98
@@ -320,7 +339,7 @@ Front brake pads. $443.59
 
 
 ');
-insert into tbl1 values('2014-12-11', 123079, '606266', 2452.2000000000,'
+insert into tbl1 values('2014-12-11', 123079, '606266', 2452.20,'
 Jim says oil leak from engine area now is getting a burning smell. Found valve covers leaking. Removed valve covers and replaced seals per estimate. $538.08
 
 Jim says ticking noise from eigine like a lifter ticking noise. Checked engine and did not hear any abnormal ticking noises. Injectors for this vehicle are very noisy andmake clicking noise. This is normal operation. 
@@ -337,7 +356,7 @@ pollen filter
 spark plugs
 
 ');
-insert into tbl1 values('2015-03-05', 124097, '607174', 1976.5000000000,'
+insert into tbl1 values('2015-03-05', 124097, '607174', 1976.50,'
 Jim says brake booster fault light is on. Small vacuumleak at brake booster pump. Repaired vacuum leak and test drove.No fault returned.
 
 Jim says 4 wheel drive fault is on. Low voltage faults. Cleared faults after new battery replacement. $379.26
@@ -361,7 +380,7 @@ Replaced gas cap. $28.71
 New battery. $236.26
 
 ');
-insert into tbl1 values('2015-08-26', 127242, '608783', 1666.5600000000,'
+insert into tbl1 values('2015-08-26', 127242, '608783', 1666.56,'
 Jim says vehicle has a  oil leak. Replaced boost pressure pipes between turbo and inner cooler. Cleaned oil from lower part of engine. $477.13
 
 Jim says brake booster failure warning light on. Replaced brake booster vacuum pump and cleared fault. $527.04
@@ -377,7 +396,7 @@ Jim says check suspension vehicle lacking firmness in sport mode. All suspension
 Jim says perform brake flush. $175.00
 
 ');
-insert into tbl1 values('2016-04-08', 130199, '611228', 277.0000000000,'
+insert into tbl1 values('2016-04-08', 130199, '611228', 277.00,'
 Oil change, inspect brakes and reset service light. $205.26
 
 Jim says light out light is on. Replaced passenger side cornering bulb. $19.01
@@ -385,7 +404,7 @@ Jim says light out light is on. Replaced passenger side cornering bulb. $19.01
 State inspection $25.50
 
 ');
-insert into tbl1 values('2016-09-02', 132633, '612822', 806.2400000000,'
+insert into tbl1 values('2016-09-02', 132633, '612822', 806.24,'
 Rear struts will not stay up. $352.94
 
 Jim says washer nozzles do not work. Found passenger side washer nozzle had come disconnected from hose and clip to hold in hood is broken. Replaced. $24.79
@@ -395,45 +414,31 @@ Oil change $229.95
 Detail $139.95
 
 ');
-insert into tbl1 values('2016-11-13', 135000, 'PP1479063189-315', 659.2400000000,'
+insert into tbl1 values('2016-11-13', 135000, 'PP1479063189-315', 659.24,'
 Mileage estimaged. This is a receipt from Pelican Parts for brake pads and rotors for front and back. I don''t know who did this work. This seems to be just before Igor bought the car from Jim. The parts were shipped to Jim. 
 
 ');
-insert into tbl1 values('2017-04-22', 139039, 'BT2017-04-22', 0.0000000000,'
+insert into tbl1 values('2017-04-22', 139039, 'BT2017-04-22', 0,'
 My first oil change. Wade helped. Did not replace the plugs; didn''t have any. Used Castrol Edge 0w-40 synthetic.
 
 ');
-insert into tbl1 values('2017-05-09', 139727, '13772', 302.0000000000,'
+insert into tbl1 values('2017-05-09', 139727, '13772', 302.00,'
 Took the car to Andy Jeffers at Camden Automotive and Diesel. Asked him to turn the rotors. This lasted not very long before it came back. Andy was sort of a dick. 
 
 Oh well.
 ');
-insert into tbl1 values('2017-07-29', 142322, 'BT2017-07-29', 0.0000000000,'
+insert into tbl1 values('2017-07-29', 142322, 'BT2017-07-29', 0,'
 Noticed a strong fuel smell near left rear tire. Turns out I had a cracked fuel filter. Ordered from Pelican and replaced myself. Not a bad job. Found out later on Rennlist that this was the subject of a recall!
 
 Around same time, I replaced the fluid in the front and rear differentials. I used the recommended synthetic fluid; don''t recall the name. However, I do remember the fluid looked good in both. No evidence of metal shavings. The whine continued. 
 ');
-insert into tbl1 values('2007-08-24', 44712, 'POCS489809', 1830.3400000000,'
-Jim says the air suspension fault is constant. Found fault 1772 stored. Performed leak test. Level control unit valve block and wiring tests. Found compressor failing. Replaced compressor. Performed vehicle height calibration. Warranty $0
-
-Jim says there is a error message for dipped beam warning light. Found open circuit low beam fault stored. Fault intermittent. Found R low beam failing after extended operation. Amplifier failing. Replaced R litronic module. Replaced bulb due to lack of intensity. Adjjusted headlights. Warranty $0.
-
-Jim says the right headlinght intermittently does not work at all. Seems like it coincides with the headlight repaired job 2.
-
-Jim says the horn sounds very weak. Found low note horn failed. Replaced. Warranty $0.
-
-Request oil change. $192.16
-
-Jim says check shifting operation, shifts hard into gear. No diagnostic faults stored. Tested transmission upshift operation. Upshifts normal. First upshifts before reaching operating temperature delayed to warm engine and transmission quickly.
-
-State inspection. $25.50
-
-Jim requests 4 new tires. $1299.95
-
-Four wheel alignment. $199.95
-');
-insert into tbl1 values('2017-12-30', 147004, 'BT2017-12-30', 0.0000000000,'
+insert into tbl1 values('2017-12-30', 147004, 'BT2017-12-30', 0,'
 Oil change. Replaced the plugs, but Pelican sent the wrong rings, so had to re-use those. Used Castrol Edge 0w-40 synthetic.
 
 Around this same time, I topped off the radiator with the pink fluid. I added a quart, but did not dilute it. I should have diluted it.
+');
+insert into tbl1 values('2018-01-12', 147004, 'BT2018-01-12', 170.31,'
+Replaced the battery after poor cold weather starts and misc error messages. Jim saw similar behavior in the past. Lee got this one using his discount at O''Reilly''s. 
+
+Update: The poor start returned and I got it replaced 2018-05-31 under warranty.
 ');
