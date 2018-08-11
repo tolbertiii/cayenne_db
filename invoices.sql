@@ -442,3 +442,63 @@ Replaced the battery after poor cold weather starts and misc error messages. Jim
 
 Update: The poor start returned and I got it replaced 2018-05-31 under warranty.
 ');
+insert into tbl1 values('2018-03-12', 147787, 'BT2018-03-12', 0,'
+Lots of work this spring. Here goes
+
+New tires
+ . Continental Terrain Contact A/T 255/55 R 19 XL
+ . Purchased from Robert Rabon
+ . Robert installed and balanced
+ . $990
+
+Headlamp gaskets
+ . Ordered from Suncoast
+ . $126.91
+
+Headlamp restored
+ . Buffed out both headlights
+
+Windshield washer pump
+ . Ordered from Pelican
+ . $28
+
+Cabin air filter
+ . Ordered from Pelican
+ . ?
+
+Tie rod end
+ . Drivers side
+ . Ordered from Pelican
+ . ?
+
+Plastidip wheels
+ . Lee got several cans from O''Reilly''s
+ . $35
+
+Installed new Android radio
+ . Ordered from AliExpress
+ . included gps antena, backup camera
+ . $500
+
+Muffler mod
+ . Used the straight pipe method
+ . $20
+
+
+');
+insert into tbl1 values('2018-04-24', 147787, 'BT2018-04-24', 183.00,'
+Tire alignment at Firestone on Clemson Road. I bought the lifetime alignment deal.
+
+Very little driving between new tires and alignment. Note that the car sat untouched at Grandaddy''s shop for nearly a month.
+
+
+');
+insert into tbl1 values('2018-05-07', 150364, 'BT2018-05-07', 244.00,'
+I ordered a key blade from Keys In the Post; you send them a picture of your key and they cut it. Crazy. Cost $35 with shipping from the UK.
+
+I then ordered a key fob from Suncoast. That was $79.
+
+Then I made an appointment with McDaniels Porsche in Columbia to get the programming done. That was $130.
+
+Overall it saved me a ton of money. Would have probably been around $600 if I had it all done at the dealership.
+');
