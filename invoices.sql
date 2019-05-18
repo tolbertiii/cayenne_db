@@ -505,12 +505,12 @@ Overall it saved me a ton of money. Would have probably been around $600 if I ha
 insert into tbl1 values('2018-08-11', 155680, 'BT2018-08-11', 0,'
 Oil change. Mobile 1 0w-40 European formula. 
 
-I noticed some pink crusty stuff on a couple of hoses on the drivers side, under the car, while changing the oil. I don't know what it is, but it obviously dripped down and hardened to a chalky consistency. 
+I noticed some pink crusty stuff on a couple of hoses on the drivers side, under the car, while changing the oil. I don''t know what it is, but it obviously dripped down and hardened to a chalky consistency. 
 
 Could it be a drip of coolant? It is pink in color and I have had to add a little bit a couple times in the past year. 
 ');
 insert into tbl1 values('2018-08-26', 156000, 'BT2018-08-26', 12.00,'
-After returning from CAE one night, the air suspension compressor continued running after ignition turned off. I disconnected the battery overnight and the next day, it didn't do exactly that but it did throw the "Air Suspension Faulty - Workshop" error that I have seen when the battery was weak.
+After returning from CAE one night, the air suspension compressor continued running after ignition turned off. I disconnected the battery overnight and the next day, it didn''t do exactly that but it did throw the "Air Suspension Faulty - Workshop" error that I have seen when the battery was weak.
 
 I found Audi and VW posts mentioning this but nothing specifically for the 955. General advice seemed to be to replace the air suspension relay. It is found under the driver side dash. I replaced it today with one from O''Reily.
 ');
@@ -518,4 +518,9 @@ insert into tbl1 values('2018-12-12', 159971, 'BT2018-12-12', 54.59,'
 Tires rotated and balanced. This was at about 10k miles on the tires. I had noticed a small shake at 30 and a more noticeable shake above 70.
 
 Seems much better.
+');
+insert into tbl1 values('2019-05-18', 164390, 'BT2019-05-18', 70.00,'
+Oil change. Mobile 1 0w-40 European formula. 
+
+Replaced the oil plug rings this time. Pelican sent me the right ones.
 ');
