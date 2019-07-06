@@ -524,3 +524,17 @@ Oil change. Mobile 1 0w-40 European formula.
 
 Replaced the oil plug rings this time. Pelican sent me the right ones.
 ');
+insert into tbl1 values('2019-05-23', 164390, 'BT2019-05-23', 129.59,'
+Replaced the front HVAC blower. It was howling and not running at high speed.
+');
+insert into tbl1 values('2019-07-05', 166990, 'BT2019-07-05', 253.79,'
+The brake booster faulty warning light started coming on again this summer. I 
+patched it last summer with some high heat teflon tape. I ordered the hose from 
+Pelican along with the upper torque damper. Also ordered some engine cover clips.
+
+Brake Booster Vacuum Hose - Pump to Booster Line     	$127.25
+
+Engine Torque Damper (Torsion Arm) (Upper)     	         $94.25
+
+Engine Compartment Panel Clip, Brand: O.E.M.     	  $1.25 6 	$7.50
+');
