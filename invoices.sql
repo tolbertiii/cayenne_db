@@ -538,3 +538,28 @@ Engine Torque Damper (Torsion Arm) (Upper)     	         $94.25
 
 Engine Compartment Panel Clip, Brand: O.E.M.     	  $1.25 6 	$7.50
 ');
+insert into tbl1 values('2019-11-29', 171000, 'BT2019-11-29', 420.05,'
+While using the car to move to Fairlawn Drive, the weak starting was so bad I was afraid it would leave me stranded. I ordered a new starter and followed the tutorial at Pelican. It was a very difficult R&R, and in the process I broke a coolant vent line, whatever the hell that is. Ordered one of those from Amazon to get it quickly. 
+
+Good news is it starts instantly now!
+
+I noted the metal coolant pipes that Jim had installed. That''s good. However, I do not believe the coolant T''s are metal and did not choose to dive into that. Reading about it caused me pain. One more note... I broke some vacuum lines removing the manifold and where I could I replaced them with new rubber lines (probably fuel line). 
+
+Throttle body seal				 16.50
+Intake manifold gaskets	     2 @	29.75	 59.50
+Starter (rebuilt) - Bosch			377.75
+Tax						 36.30
+
+Core refund					100.00
+
+Coolant vent line			         30.00
+');
+insert into tbl1 values('2020-01-04', 171000, 'BT2020-01-04', 0,'
+I had *another* leak in the trunk wheel well. I thought for certain it was the drain for the rear AC unit, and indeed the drain bib appeared to be loose. However, I soon noticed for the first time that it was coming from the headliner. I pulled it down part way on the driver''s side and saw that the hose connection to the roof gutter nipple was leaking. I siliconed it up and tested it the next day and it seems to be ok now. I did not see leaks on the passenger side.
+
+While I had the rear driver''s side panel off, I could see that one of the servo motors was disconnected from the control arm. I reattached it and it improved the long-standing issue with warm air coming from the center rear vents. It did not completely fix it, so I kept digging.
+
+I found that the servo on the back side, the left blend adjustment, was not working. I ordered a used motor and replaced it but it was obvious that the issue was with the signal coming from the control unit. I was not able to troubleshoot it and decided to punt.
+
+I modified the blend flaps so that the right servo motor would control them both. All it took was a split that essentially tied them together and some carful cutting of the chamber. This seems to be working, although it has not been hot enough to see how well it does with the AC running. This is fine, as the auto setting will let you set the rear temp and forget about it. In the rear seat, the left temp adjustment is not going to work; only the right will matter.
+');
