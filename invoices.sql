@@ -539,11 +539,19 @@ Engine Torque Damper (Torsion Arm) (Upper)     	         $94.25
 Engine Compartment Panel Clip, Brand: O.E.M.     	  $1.25 6 	$7.50
 ');
 insert into tbl1 values('2019-11-29', 171000, 'BT2019-11-29', 420.05,'
-While using the car to move to Fairlawn Drive, the weak starting was so bad I was afraid it would leave me stranded. I ordered a new starter and followed the tutorial at Pelican. It was a very difficult R&R, and in the process I broke a coolant vent line, whatever the hell that is. Ordered one of those from Amazon to get it quickly. 
+While using the car to move to Fairlawn Drive, the weak starting was so bad I
+was afraid it would leave me stranded. I ordered a new starter and followed the
+tutorial at Pelican. It was a very difficult R&R, and in the process I broke a
+coolant vent line, whatever the hell that is. Ordered one of those from Amazon
+to get it quickly. 
 
 Good news is it starts instantly now!
 
-I noted the metal coolant pipes that Jim had installed. That''s good. However, I do not believe the coolant T''s are metal and did not choose to dive into that. Reading about it caused me pain. One more note... I broke some vacuum lines removing the manifold and where I could I replaced them with new rubber lines (probably fuel line). 
+I noted the metal coolant pipes that Jim had installed. That''s good. However,
+I do not believe the coolant T''s are metal and did not choose to dive into
+that. Reading about it caused me pain. One more note... I broke some vacuum
+lines removing the manifold and where I could I replaced them with new rubber
+lines (probably fuel line). 
 
 Throttle body seal				 16.50
 Intake manifold gaskets	     2 @	29.75	 59.50
@@ -555,11 +563,129 @@ Core refund					100.00
 Coolant vent line			         30.00
 ');
 insert into tbl1 values('2020-01-04', 171000, 'BT2020-01-04', 0,'
-I had *another* leak in the trunk wheel well. I thought for certain it was the drain for the rear AC unit, and indeed the drain bib appeared to be loose. However, I soon noticed for the first time that it was coming from the headliner. I pulled it down part way on the driver''s side and saw that the hose connection to the roof gutter nipple was leaking. I siliconed it up and tested it the next day and it seems to be ok now. I did not see leaks on the passenger side.
+I had *another* leak in the trunk wheel well. I thought for certain it was the
+drain for the rear AC unit, and indeed the drain bib appeared to be loose.
+However, I soon noticed for the first time that it was coming from the
+headliner. I pulled it down part way on the driver''s side and saw that the
+hose connection to the roof gutter nipple was leaking. I siliconed it up and
+tested it the next day and it seems to be ok now. I did not see leaks on the
+passenger side.
 
-While I had the rear driver''s side panel off, I could see that one of the servo motors was disconnected from the control arm. I reattached it and it improved the long-standing issue with warm air coming from the center rear vents. It did not completely fix it, so I kept digging.
+While I had the rear driver''s side panel off, I could see that one of the
+servo motors was disconnected from the control arm. I reattached it and it
+improved the long-standing issue with warm air coming from the center rear
+vents. It did not completely fix it, so I kept digging.
 
-I found that the servo on the back side, the left blend adjustment, was not working. I ordered a used motor and replaced it but it was obvious that the issue was with the signal coming from the control unit. I was not able to troubleshoot it and decided to punt.
+I found that the servo on the back side, the left blend adjustment, was not
+working. I ordered a used motor and replaced it but it was obvious that the
+issue was with the signal coming from the control unit. I was not able to
+troubleshoot it and decided to punt.
 
-I modified the blend flaps so that the right servo motor would control them both. All it took was a split that essentially tied them together and some carful cutting of the chamber. This seems to be working, although it has not been hot enough to see how well it does with the AC running. This is fine, as the auto setting will let you set the rear temp and forget about it. In the rear seat, the left temp adjustment is not going to work; only the right will matter.
+I modified the blend flaps so that the right servo motor would control them
+both. All it took was a split that essentially tied them together and some
+carful cutting of the chamber. This seems to be working, although it has not
+been hot enough to see how well it does with the AC running. This is fine, as
+the auto setting will let you set the rear temp and forget about it. In the
+rear seat, the left temp adjustment is not going to work; only the right will
+matter.
+
+');
+insert into tbl1 values('2020-02-08', 172525, 'BT2020-02-08', 172.00,'
+TL;DR -- I replaced the plastic coolant T''s with metal ones after a blowout.
+This serves as a coolant flush too.
+
+So, the attentive reader will have noticed that in BT2019-11-29 (where I
+replaced the starter) I said that I chose not to replace the plastic coolant
+T''s. Big mistake. They blew out on me and Rodney towing the boat just west of
+Mobile on I-10.
+
+I ignored some signs. Way back, while changing the oil I noticed some dried
+coolant and wondered about the T''s then. But, when I changed the starter and
+broke the small coolant vent line, I noticed dried coolant under the starter. I
+surmised that this very brittle line was leaking a little, and that it was not
+the T''s. However, in the cool weather since doing the starter, I noticed a
+coolant smell in the car, so I figured I had a small leak in the heater core. 
+
+Anyway, I now believe that that T''s were leaking all along, and were probably
+responsible for the smell. With the car in Rodney''s boat house, I stayed behind
+after he, mom, and dad left for Bethune. I ordered replacement hoses (with
+plastic T''s) from Pelican. I ordered metal T''s from Jag''s that Run. I ordered
+a cable operated clamp pliers from Amazon and a vacuum bleeder from Amazon.
+
+Here''s how it went down.
+
+Of course I had to pull the intake again. Going into it a second time in 2
+months made it easier. Getting your hands on the T''s was hard as hell. Cannot
+be done without the remote cable pliers. I destroyed the new plastic T''s and
+isntalled the new metal ones. Then installed this thing that looked like an
+alien into the car.
+
+Then I used the vacuum pump to do a leak test. This gave me a lot of confidence
+because I no longer suspcect a leak in the heater core. And it assured me that
+the install was sound.
+
+Altogether it was a very difficult job, but working on it in the evenings at my
+own pace it went pretty well. I spent a total of probably 10 hours or so on it.
+
+
+Pelican Order
+
+Your Order Id: #1581353550-298
+
+	Order Total:	$102.32
+Date Ordered:	Mon 2/10/2020
+ 	08:55:18 AM
+Item Name	Item Price 	Quantity 	Item Total 
+
+Engine Air Duct Bolt (2005 Porsche Cayenne Turbo Sport Utility)
+  Part #: 955-110-670-00-OEM 	$5.25	1	$5.25
+
+Coolant Vent Line "T" Fitting(2005 Porsche Cayenne Turbo Sport Utility)(m)
+  Part #: 955-106-323-50-M100 	$32.25	1	$32.25
+
+Water Hose with Plastic "T" Fitting - Return Pipe from Turbochargers(2005 Porsche Cayenne Turbo Sp
+  Part #: 948-106-035-51-M100 	$42.25	1	$42.25
+
+Subtotal:	$79.75
+Shipping:	$14.99
+Tax:	$7.58
+Total:	$102.32
+
+
+Amazon Order
+
+OEMTOOLS 24444 Kit, 5 Refill, Eliminate Trapped Air, and Test Cooling System for
+Leaks | Universal Adapters to Fit Most Radiator Coolant Bottle Necks Sold by
+Amazon.com Services LLC
+Return eligible through Mar 12, 2020
+$79.47 
+
+BETOOLL 9pcs Wire Long Reach Hose Clamp Pliers Set Fuel Oil Water Hose Auto Tools
+Sold by: SZBRT Product question? Ask Seller
+Return eligible through Mar 13, 2020
+$49.99 
+
+
+Stealth Conversion (Metal Tees)
+
+Radiator Hose Tees - 3/4” / 3/4” 	$30.00 USD 	1 	$30.00 USD 
+Radiator Hose Tees - 1” / 5/8” 	$30.00 USD 	1 	$30.00 USD 
+Subtotal 	$60.00 USD 
+Shipping and handling 	$10.00 USD 
+Total 	$70.00 USD 
+Payment 	$70.00 USD 
+Payment sent to GHKNELL@GMAIL.COM 
+Payment sent from bill@big-springs.com 
+
+
+I''m including the tools above for reference, but not including them in the
+invoice total. Just the parts were about $170. But, the tools were required.
+Notice that I needed an air compressor for the vacuum pump but Dad said he
+wanted a small one for the farm, so he bought one in LA and let me use it. 
+
+Altogether it was an expensive repair, but I now have some good tools (including
+a torque wrench) and I leaned a lot and certainly saved a lot of money doing it
+myself.
+
+Carry on.
 ');
