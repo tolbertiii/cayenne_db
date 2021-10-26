@@ -689,3 +689,45 @@ myself.
 
 Carry on.
 ');
+insert into tbl1 values('2020-03-09', 173481, 'BT2020-03-09', 60.00,'
+Oil change. Mobile 1 0w-40 European formula. 
+
+I used an STP oil filter I got at AutoZone. It was a little sketchy looking, but seems to be ok. This was the time I split my thumb open when I wedged it between the filter housing and some damn piece of metal under there. I mean really, really cut the shit out of my thumb.
+');
+insert into tbl1 values('2021-03-20', 181045, 'BT2021-03-20', 162.80,'
+Oil change. Mobile 1 0w-40 European formula. I tried using another STP XL filter but it did not fit. When I realized this I of course had drained the engine. Could not find one anywhere so ordered one at Oreily. This time I used an expense Wix filter. I think I''m going to just start ordering them from Pelican. I changed plugs and washers this time.
+
+Now for the fun part. I noticed that there was a coolant leak. Yep. Of course I assumed I had a failure from the major blow out of the coolant T''s from last year''s LA trip. But, it turns out it was the damn cheapo vent line I replaced when I changed the starter. That part was only about 15 bucks and the only reason I risked it was because I was able to get it sooner than any others. This time I replaced it with a Porsche part and it did seem to be heavier plastic. Where it failed was the plastic clamp ring.
+
+So far so good, but I will continue to monitor.
+
+I replaced the left cornering bulb in the headlight assembly and was dismayed to see many wires with peeling insulation. I''ve read about this and seems common. Xenon replacements are about $600 each. Yikes.
+
+Oh, it needs to be reported that last summer the air conditioner quit. I heard a loud hissing noise and that was that. Not sure I want to tackle that one.
+
+Here is the Pelican order. I added 20 bucks to the total for the oil filter. I had most of the oil already purchased. 
+
+
+Coolant Vent Line (3-Way) for Left/Right Cylinder Heads(2005 Porsche Cayenne Turbo Sport Utility)(
+  Part #: 948-106-016-03-M100 	$59.37	1	$59.37
+
+Cabin Air Filter (2005 Porsche Cayenne Turbo Sport Utility)
+  Part #: 955-572-219-10-M2114 	$20.25	1	$20.25
+
+Engine Oil Drain Plug (18 X 1.5 mm) (2005 Porsche Cayenne Turbo Sport Utility)
+  Part #: PAF-008-309-OEM 	$8.50	2	$17.00
+
+Cornering Light Bulb - H3 Halogen (12V - 55W)(2005 Porsche Cayenne Turbo Sport Utility)(m)
+  Part #: 900-631-126-90-OEM 	$16.87	1	$16.87
+
+Oil Drain Plug Washer (18 X 24 X 1.5 mm Aluminum) (2005 Porsche Cayenne Turbo Sport Utility)
+  Part #: 900-123-106-30-OEM 	$1.87	2	$3.74
+
+Subtotal:	$117.23
+Shipping:	$14.99
+Tax:	$10.58
+Total:	$142.80
+
+
+
+');
