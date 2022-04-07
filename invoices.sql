@@ -695,13 +695,13 @@ Oil change. Mobile 1 0w-40 European formula.
 I used an STP oil filter I got at AutoZone. It was a little sketchy looking, but seems to be ok. This was the time I split my thumb open when I wedged it between the filter housing and some damn piece of metal under there. I mean really, really cut the shit out of my thumb.
 ');
 insert into tbl1 values('2021-03-20', 181045, 'BT2021-03-20', 162.80,'
-Oil change. Mobile 1 0w-40 European formula. I tried using another STP XL filter but it did not fit. When I realized this I of course had drained the engine. Could not find one anywhere so ordered one at Oreily. This time I used an expense Wix filter. I think I''m going to just start ordering them from Pelican. I changed plugs and washers this time.
+Oil change. Mobile 1 0w-40 European formula. I tried using another STP XL filter but it did not fit. When I realized this I of course had drained the engine. Could not find one anywhere so ordered one at Oreily. This time I used an expense Wix filter. I think I''m going to just start ordering them from Pelican. I changed the drain plugs and washers this time.
 
-Now for the fun part. I noticed that there was a coolant leak. Yep. Of course I assumed I had a failure from the major blow out of the coolant T''s from last year''s LA trip. But, it turns out it was the damn cheapo vent line I replaced when I changed the starter. That part was only about 15 bucks and the only reason I risked it was because I was able to get it sooner than any others. This time I replaced it with a Porsche part and it did seem to be heavier plastic. Where it failed was the plastic clamp ring.
+Now for the fun part. I noticed that there was a coolant leak. Yep. Of course I assumed I had a failure from the major blow out of the coolant T''s from last year''s LA trip. But, it turns out it was the damn cheapo vent line I replaced when I changed the starter. That part was only about 30 bucks and the only reason I risked it was because I was able to get it sooner than any others. This time I replaced it with a Porsche part and it did seem to be heavier plastic. Where it failed was the plastic clamp ring. I notice that it is now down to 15 dollars on Amazon. 
 
 So far so good, but I will continue to monitor.
 
-I replaced the left cornering bulb in the headlight assembly and was dismayed to see many wires with peeling insulation. I''ve read about this and seems common. Xenon replacements are about $600 each. Yikes.
+I replaced the left cornering bulb in the headlight assembly and was dismayed to see many wires with peeling insulation. I''ve read about this and seems common. Xenon replacements are about $600 each. Yikes. Looks like Jim has had the cornering bulbs replaced a couple times in the past.
 
 Oh, it needs to be reported that last summer the air conditioner quit. I heard a loud hissing noise and that was that. Not sure I want to tackle that one.
 
@@ -730,4 +730,49 @@ Total:	$142.80
 
 
 
+');
+insert into tbl1 values('2021-09-26', 182200, 'BT2021-09-26', 905.01,'
+I had a few instances where the car would fail to start quickly after running for a while. Also, sometimes it would idle and then just die. Rough idling, etc, even with recently changed plugs.
+
+Research suggested the fuel pumps were failing, but I was unable to prove this with a pressure gauge and by removing each of the separate fuses. Still, I knew the pumps had never been changed and everyone agrees that it''s a matter of when not if. So, I went ahead and ordered new pumps and a new regulator from FCP Euro.
+
+I also changed the fuel pump relay and I replaced the hood strut.
+
+Next up is the oil leak; got the gaskets, need to do the work. 
+
+Update 17Oct2021 -- after a fillup, the car was slow to start. This is what happened back in April and started my worry about the fuel pumps. There are some good writeups online about the slow start after fillup issue, and it is related to the EVAP system. Seems sorta common, weirdly. The bad news is the replacement valve for this is stupid expense; like 300 dollars for a part that was around 50 a few years ago. They show up as being "no longer available" or something. I read where a guy said he cleaned his with carb cleaner and it fixed it. Doesn't sound like too big of a deal. It does throw a P01444 or something code, and I'm seeing that one too. 
+
+Here is my FCP Euro order info
+
+Porsche Fuel Pump Assembly Kit - VDO/Genuine Porsche KIT-A2C53377802ZKT 	01 	$249.57 
+Porsche Fuel Pump Assembly Kit - VDO/Genuine Porsche A2C53377801ZKT 		01 	$234.68 
+Porsche VW Fuel Pressure Regulator - VDO 229025003002Z 				01 	$81.99 
+Porsche Valve Cover Gasket Kit - Elring 255560KT 				02 	$230.28 
+Porsche Hood Lift Support - Stabilus 8542UD 					01 	$17.29 
+Audi Porsche VW Fuel Pump Relay - Wehrle 29201075A 				01 	$5.19 
+									Subtotal: 	$819.00 
+									Order Total: 	$905.01 
+
+One more note: they sent the wrong right side pump and I had to get them to send me another. Oh, and finally, looks like my fuel gauge is not reading correctly at the top. After a fillup it shows about 3/4 of a tank, but it seems to be dropping correctly after that. I bet there is a random hose in the way of the float.
+');
+insert into tbl1 values('2021-10-26', 182200, 'BT2021-10-26', 89.91,'
+Replaced the brake pedal damper, finally! It was not fully releasing and had been this way since day one.
+
+I also replaced the hatch actuator. It failed and we had to release the hatch manually.
+
+I  bought an oil filter and a couple of plug rings. Here is the invoice.
+
+Part Number 		 Description 					Price 	Quantity 	Subtotal
+	
+900-123-106-30-OEM 	 Oil Drain Plug Washer (18 X 24 X 1.5 mm Aluminum)     	 $1.87 2       	 $3.74
+955-423-389-00-M24 	 Damper - Parking Brake Pedal     			$16.75 1 	$16.75
+955-512-761-01-M100 	 Hatch Lock Actuator     				$33.77 1 	$33.77
+996-107-225-53-M67 	 Oil Filter Kit      					$13.00 1 	$13.00
+Shipped: Mon 10/18/2021
+	
+Subtotal: 											$67.26
+Shipping
+Weight: 0.69 lbs. 										$15.99
+Tax: (8%) 											 $6.66
+Total: 												$89.91
 ');
