@@ -1,6 +1,9 @@
 #!/bin/ksh
 
 set -x 
+# We expect to receive the data name; usually cayenne or gti
+data_directory=$1_data
+data_type=$1
 
 typeset    date
 typeset -i mileage
@@ -10,10 +13,10 @@ typeset    notes
 
 IFS=:
 
-cat cayenne.sql>invoices.sql 
-exec 3>>invoices.sql
+cat invoices.sql>${data_type}_invoices.sql 
+exec 3>>${data_type}_invoices.sql
 
-for file in data/*.inv
+for file in $data_directory/*.inv
 do
   print "Processing $file"
   # For each file, read the lines
@@ -40,7 +43,7 @@ do
   read -u4 line
 
   # Write the first portion of the insert statement
-  print -u3 "insert into tbl1 values('$date', $mileage, '$invoice_number', $total_invoice,'"
+  print -u3 "insert into invoices values('$date', $mileage, '$invoice_number', $total_invoice,'"
   while read -u4 notes
   do
     print -u3 "$notes"
