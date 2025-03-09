@@ -1,4 +1,4 @@
-#!/bin/ksh
+#!/usr/bin/ksh
 
 set -x 
 # We expect to receive the data name; usually cayenne or gti
